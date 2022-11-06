@@ -10,6 +10,7 @@ variable "prefix" {
 }
 variable "bucket_prefix" {
   description = "This prefix will be included in the name of most resources."
+  default = "ramesh329823089"
 }
 variable "region" {
   description = "The region where the resources are created."
